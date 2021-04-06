@@ -159,4 +159,3 @@ vim.fn.sign_define("LspDiagnosticsSignInformation",
 vim.fn.sign_define("LspDiagnosticsSignHint",
     {text = ""})
 
-require('gitsigns').setup()

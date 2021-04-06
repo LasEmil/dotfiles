@@ -21,25 +21,6 @@ local one_dark_colors = {
   red = "#D16969"
 }
 
-local nord_colors = {
-  bg = "NONE",
-  -- bg = "#2E3440",
-  fg = "#81A1C1",
-  line_bg = "NONE",
-  lbg = "#3B4252",
-  fg_green = "#8FBCBB",
-  yellow = "#EBCB8B",
-  cyan = "#A3BE8C",
-  darkblue = "#81A1C1",
-  green = "#8FBCBB",
-  orange = "#D08770",
-  purple = "#B48EAD",
-  magenta = "#BF616A",
-  gray = "#616E88",
-  blue = "#5E81AC",
-  red = "#BF616A"
-}
-
 local buffer_not_empty = function()
   if fn.empty(fn.expand("%:t")) ~= 1 then
     return true
