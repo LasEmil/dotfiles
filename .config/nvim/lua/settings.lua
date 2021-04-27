@@ -2,8 +2,8 @@ local indent = 2
 vim.o.termguicolors = true
 vim.o.showmode = false
 vim.o.background = 'dark'
-vim.o.number = true
-vim.o.relativenumber = true
+vim.wo.number = true
+vim.wo.relativenumber = true
 vim.o.completeopt = 'menuone,noinsert,noselect'
 vim.o.backspace = 'indent,eol,start'
 vim.o.tabstop = 4
@@ -28,4 +28,5 @@ vim.g['prettier#autoformat'] = 1
 vim.g['prettier#autoformat_require_pragma'] = 0
 vim.g.mapleader = ' '
 vim.g.go_fmt_command = 'goimports'
+vim.o.mouse = 'a'
 

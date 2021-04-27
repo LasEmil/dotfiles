@@ -12,6 +12,7 @@ return require('packer').startup(function()
   }
   use 'junegunn/fzf.vim'
   use 'peitalin/vim-jsx-typescript'
+  use 'HerringtonDarkholme/yats.vim'
   use 'justinmk/vim-sneak'
   use 'dart-lang/dart-vim-plugin'
   use 'terryma/vim-multiple-cursors'
@@ -58,6 +59,10 @@ return require('packer').startup(function()
   }
   use 'pechorin/any-jump.vim'
   use 'romgrk/barbar.nvim'
+  use {
+    'nvim-telescope/telescope.nvim',
+    requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
+  }
 end)
 
 
